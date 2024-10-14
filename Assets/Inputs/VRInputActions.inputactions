@@ -1,0 +1,45 @@
+{
+    "name": "VRInputActions",
+    "maps": [
+        {
+            "name": "XRController",
+            "id": "df709709-ba7c-4d43-a8fc-b9fc5bffc437",
+            "actions": [
+                {
+                    "name": "TriggerAction",
+                    "type": "Button",
+                    "id": "31516d15-160c-4a77-aec8-da1786305215",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "dc32f7b2-06d7-44e4-87c0-8f4b7f6b3c41",
+                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6cad031e-f860-4db1-a02b-b8d6aeaae87c",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
